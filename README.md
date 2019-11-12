@@ -11,10 +11,15 @@ Hi everyone, I just wanted to give some information about what I have done on th
 The project consists of 6 main parts.
 
 1-Player(It explicitly your character)
+
 2-)Fire (your character produces it)
+
 3-)Monster(it is a nightmare of  your character :))
+
 4-)Game screen
+
 5-)Information panel (Your information that while playing )
+
 6-)Wall
 
 Let's talk about the structure of Player.
