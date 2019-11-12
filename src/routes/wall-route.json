@@ -1,0 +1,158 @@
+{
+  "Wall_1": {
+    "ArrowRight": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 40,
+      "secondCordinateY": 80
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 140,
+      "secondCordinateY": 190
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 60,
+      "secondCordinateY": 170,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 541
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 60,
+      "secondCordinateY": 170,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 561
+    }
+  },
+  "Wall_2": {
+    "ArrowRight": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 241,
+      "fisrtCordinateY": 240,
+      "secondCordinateY": 360
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 241,
+      "fisrtCordinateY": 330,
+      "secondCordinateY": 385
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 260,
+      "secondCordinateY": 370,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 241
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 260,
+      "secondCordinateY": 370,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 271
+    }
+  },
+  "Wall_3": {
+    "ArrowRight": {
+      "fisrtCordinateX": 321,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 240,
+      "secondCordinateY": 360
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 321,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 330,
+      "secondCordinateY": 385
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 260,
+      "secondCordinateY": 370,
+      "fisrtCordinateX": 300,
+      "secondCordinateX": 561
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 260,
+      "secondCordinateY": 370,
+      "fisrtCordinateX": 331,
+      "secondCordinateX": 561
+    }
+  },
+  "Wall_4": {
+    "ArrowRight": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 440,
+      "secondCordinateY": 480
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 540,
+      "secondCordinateY": 650
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 460,
+      "secondCordinateY": 570,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 561
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 460,
+      "secondCordinateY": 570,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 561
+    }
+  },
+  "Wall_5": {
+    "ArrowRight": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 241,
+      "fisrtCordinateY": 640,
+      "secondCordinateY": 690
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 21,
+      "secondCordinateX": 241,
+      "fisrtCordinateY": 700,
+      "secondCordinateY": 780
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 670,
+      "secondCordinateY": 760,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 241
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 670,
+      "secondCordinateY": 760,
+      "fisrtCordinateX": 10,
+      "secondCordinateX": 271
+    }
+  },
+  "Wall_6": {
+    "ArrowRight": {
+      "fisrtCordinateX": 321,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 640,
+      "secondCordinateY": 690
+    },
+    "ArrowLeft": {
+      "fisrtCordinateX": 321,
+      "secondCordinateX": 541,
+      "fisrtCordinateY": 700,
+      "secondCordinateY": 780
+    },
+    "ArrowDown": {
+      "fisrtCordinateY": 670,
+      "secondCordinateY": 760,
+      "fisrtCordinateX": 300,
+      "secondCordinateX": 561
+    },
+    "ArrowUp": {
+      "fisrtCordinateY": 670,
+      "secondCordinateY": 760,
+      "fisrtCordinateX": 331,
+      "secondCordinateX": 561
+    }
+  }
+}
