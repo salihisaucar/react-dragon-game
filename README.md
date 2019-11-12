@@ -121,17 +121,25 @@ I have to confess that there is no magic. It is just json file that has some coo
 
 
 const setMonsterLocation = (monsterRouteId, routeIndex) => {
+  
   let monsterItemObj = {
+   
     Id: 0,
+    
     monstercordinateX: 0,
+   
     monstercordinateY: 0,
+    
     monsterRouteId: 0,
+    
     routeIndex: 0
-  };
+ 
+ };
 
   let monsterRoute;
 
   switch (monsterRouteId) {
+    
     case 1:
       monsterRoute = require("../../routes/route-1.json");
       break;
