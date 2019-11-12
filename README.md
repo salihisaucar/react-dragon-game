@@ -24,6 +24,19 @@ The project consists of 6 main parts.
 
 Let's talk about the structure of Player.
 
+The player module has two important duty which are to move and to fire. We are going to see that fire will branch in the future. But basically we have to tackle what the player does during the game.
+
+When you press the button to move player module will get where you want to go. Actually this is imperative for us because when you encounter the monster, you want to fire. At this point, how can fire decide where it will go :) it is easy because 'setPlayerPosition' method will help you. another duty of the player is to stimulate, to trigger the redux Because everything in this game is being governed by redux.
+
+This part is the most important part that we can make something done the redux
+
+const mapDispachToProps = (dispach) => {
+  return {
+    onRun: (direction) => dispach({ type: "RUN", value: direction }),
+    onFire: (directionObj) => dispach({ type: "FIRE", value: directionObj })
+  };
+};
+
 
 
 
