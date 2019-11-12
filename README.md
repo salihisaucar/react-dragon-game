@@ -42,6 +42,32 @@ const mapDispachToProps = (dispach) => {
   
 };
 
+The fire module which is a little confounding has basically one paramount duty which is to destroy the monster :)
+
+Let's explain how it will do it.
+
+Do you remember that I have mentioned how the fire would trigger? Yes, you are right:)  It would be triggered by the player module. When the player fire redux would get this information from the player module. as soon as redux get this information from the player module, It will produce a new fire object by using the position of the player object.
+
+if (action.type === "FIRE")-- it is the point that is triggered to produce the fire at reducer.js
+
+Do you think that everything is done :) of course no :) we have to make it moved but how?
+
+if (action.type === "FIRE_DIRECTION") --it is nested case in reducer to catch the fire requests. I assume that you know how redux works because of this I don't want to weary you about redux work structure but it is obligatory to comprehend how you could make fire moved.
+
+I have nested a timer function in the fire.js Because I want to trigger something regularly. When I call some function that would change my state, Otomaticly, my fire object would be changed by react virtual dom. This is what I did :)
+
+ componentDidMount() {
+
+    this.interval = setInterval(this.props.onFireDirection, 100);
+
+  }
+  componentWillUnmount() {
+
+    clearInterval(this.interval);-- this part is used to remove the fire 
+    object because it will never live forever :)
+
+  }
+
 
 
 
