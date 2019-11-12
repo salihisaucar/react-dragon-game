@@ -97,6 +97,20 @@ import {
 } from "../../engine/general-engine/generalEngine.js";
 
 
+It is time to talk about 'generalEngine.js'. It is managing how many monsters are in the game, how many fires I have or have the monsters killed me if they have, what about my credit.
+
+export const monsterStatusCheck = (data) =>( To check monster statuse if i have killed one of them, it will trigger killMonster->increaseScore-> deleteFire  )
+
+const killMonster = (monsterId, monsterList) =>(to kill the monster)
+
+const deleteFire = (fireId, fireList) => (When I kill the monster I would not need it)
+
+const increaseScore = (score) =>(increasing the score)
+
+export const createMonsterSateList = () =>(Create monster list)
+
+export const playerStatusCheck = (player, monsterList) =>(monster could have killed me :) it is time to check it :)  )
+
 
 
 
