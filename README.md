@@ -112,6 +112,48 @@ export const createMonsterSateList = () =>(Create monster list)
 export const playerStatusCheck = (player, monsterList) =>(monster could have killed me :) it is time to check it :)  )
 
 
+we have learned how we can make the player moved and How we can kill the monster.
+
+Now, It is time to talk about how the monster moves by following a map.
+
+I have to confess that there is no magic. It is just json file that has some coordinate. When I created a monster, I directed it and i got the coordinate After this process, I compiled o json file :) I was loading all coordinates to map of monster while creating monster. :)
+
+
+
+const setMonsterLocation = (monsterRouteId, routeIndex) => {
+  let monsterItemObj = {
+    Id: 0,
+    monstercordinateX: 0,
+    monstercordinateY: 0,
+    monsterRouteId: 0,
+    routeIndex: 0
+  };
+
+  let monsterRoute;
+
+  switch (monsterRouteId) {
+    case 1:
+      monsterRoute = require("../../routes/route-1.json");
+      break;
+    case 2:
+      monsterRoute = require("../../routes/route-2.json");
+      break;
+    case 3:
+      monsterRoute = require("../../routes/route-3.json");
+      break;
+    case 4:
+      monsterRoute = require("../../routes/route-4.json");
+      break;
+    case 5:
+      monsterRoute = require("../../routes/route-5.json");
+      break;
+    case 6:
+      monsterRoute = require("../../routes/route-6.json");
+      break;
+  }
+
+
+
 
 
 
