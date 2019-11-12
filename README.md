@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Hi everyone, I just wanted to give some information about what I have done on this project. Firstly, this is just a simple game that is browser-based. I just wanted to prove how much React  is compatible with redux. Probably, you have seen a lot of react applications that were  written for the form-based app.  Now, You will be scrutinizing how reactjs act under too many change requests.  Let's talk about the structure of this project :)
+Hi everyone, I just wanted to give some information about what I have done on this project. Firstly, this is just a simple game that is browser-based. I just wanted to prove how much React  is compatible with redux. Probably, you have seen a lot of react applications that were  written for the form-based app.  Now, You will be scrutinizing how reactjs acts under too many change requests.  Let's talk about the structure of this project :)
 
 The project consists of 6 main parts.
 
