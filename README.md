@@ -68,7 +68,7 @@ I have nested a timer function in the fire.js Because I want to trigger somethin
 
   }
 
-everything is done now we have a player that can fire when he faces the monster but something is wrong. Yeah, we haven't created a monster yet.
+Everything is done now we have a player that can fire when he faces the monster but something is wrong. Yeah, we haven't created a monster yet.
 
 Let's look at how we can create the monster. There is a folder under the components. Monster ;) It has 2 js file which is very simple. I am not going to mention what those files have. I am going to talk about how we can track the monster at reducer.js
 
@@ -82,6 +82,20 @@ Let's look at how we can create the monster. There is a folder under the compone
 
     };
   }
+
+This code block means how we create the monster list. Also, I want to discuss about 'generalEngine.is'.
+It is a kind of heart for our game. The most important incidents are being managed by this module.
+
+import {
+
+  createMonsterSateList,
+
+  playerStatusCheck,
+
+  monsterStatusCheck
+
+} from "../../engine/general-engine/generalEngine.js";
+
 
 
 
