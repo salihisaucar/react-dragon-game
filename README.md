@@ -31,10 +31,15 @@ When you press the button to move player module will get where you want to go. A
 This part is the most important part that we can make something done the redux
 
 const mapDispachToProps = (dispach) => {
+  
   return {
+  
     onRun: (direction) => dispach({ type: "RUN", value: direction }),
+    
     onFire: (directionObj) => dispach({ type: "FIRE", value: directionObj })
+  
   };
+  
 };
 
 
