@@ -68,6 +68,22 @@ I have nested a timer function in the fire.js Because I want to trigger somethin
 
   }
 
+everything is done now we have a player that can fire when he faces the monster but something is wrong. Yeah, we haven't created a monster yet.
+
+Let's look at how we can create the monster. There is a folder under the components. Monster ;) It has 2 js file which is very simple. I am not going to mention what those files have. I am going to talk about how we can track the monster at reducer.js
+
+  if (state.monsterList.length === 0) {
+
+    state = {
+
+      ...state,
+
+      monsterList: createMonsterSateList()
+
+    };
+  }
+
+
 
 
 
